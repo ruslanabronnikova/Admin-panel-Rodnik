@@ -2,438 +2,408 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
-  <title>Админ панель</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Material icons Google -->
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
-  <link rel="stylesheet" href="./fonts/stylesheet.css">
-  <link rel="stylesheet" href="./styles.css" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Boxicons -->
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<!-- My CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./fonts/stylesheet.css">
+
+	<title>Админ панель Родник здоровья</title>
 </head>
 
-<body class="page">
-  <div class="main">
-    <div class="container">
-      <aside>
-        <div class="top">
-          <div class="logo">
-            <img src="./images/sidebar/logocompany.png">
-          </div>
-          <div class="close" id="close-btn">
-            <span class="material-symbols-sharp">close</span>
-          </div>
-        </div>
-
-        <div class="sidebar">
-          <a href="#" class="active">
-            <span class="material-symbols-sharp">home</span>
-            <h3>Главная</h3>
-          </a>
-          <a href="#">
-            <span class="material-symbols-sharp">home</span>
-            <h3>Property</h3>
-          </a>
-          <a href="#">
-            <span class="material-symbols-sharp">
-              person
-            </span>
-            <h3>Agent</h3>
-          </a>
-          <a href="#">
-            <span class="material-symbols-sharp">home</span>
-            <h3>Review</h3>
-          </a>
-          <a href="#">
-            <span class="material-symbols-sharp">
-              mail
-            </span>
-            <h3>Message</h3>
-          </a>
-          <a href="#">
-            <span class="material-symbols-sharp">home</span>
-            <h3>Settings</h3>
-          </a>
-          <a href="#">
-            <span class="material-symbols-sharp">
-              logout
-            </span>
-            <h3>Log Out</h3>
-          </a>
-        </div>
-      </aside>
-    </div>
+<body>
 
 
-    <header class="header">
-      <div class="header__container">
-        <ul class="header__list">
-          <li class="header__item">
-            <div class="header__search">
-              <input class="search__text" placeholder="Поиск">
-              <img class="search__icon" src="./images/header/search-normal.svg">
-            </div>
-          </li>
-          <li class="header__item">
-            <img class="header__icon" src="./images/header/iconnotifications.svg">
-          </li>
-          <li class="header__item">
-            <img class="header__avatar" src="./images/header/avatar.png">
-          </li>
-        </ul>
-      </div>
-
-      <section class="profile">
-        <div class="profile__board">
-          <img class="profile__overlay" src="./images/profile/imageoverlay.png">
-          <button class="profile__btn-edit">Редактировать</button>
-          <img class="profile__avatar" src="./images/profile/avatarbig.png">
-          <h1 class="profile__name">Имя Фамилия</h1>
-          <ul class="item__list">
-            <li>
-              <p class="item__status">Мой статус: Мастер </p>
-            </li>
-            <li>
-              <p class="item__id">Мой статус: Мастер </p>
-            </li>
-            <li>
-              <p class="item__bonus">Мой статус: Мастер </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="banners">
-        <ul class="banner">
-          <li class="banner__item">
-            <img class="banner__image" src="./images/banners/iconCar.svg">
-            <p class="banner__subtitle">Выполни условия и получи авто</p>
-            <a href="#">
-              <img class="banner__link-icon" src="./images/banners/iconLink.svg">
-            </a>
-          </li>
-          <li class="banner__item">
-            <img class="banner__image" src="./images/banners/iconCar.svg">
-            <p class="banner__subtitle">Выполни условия и получи авто</p>
-            <a href="#">
-              <img class="banner__link-icon" src="./images/banners/iconLink.svg">
-            </a>
-          </li>
-          <li class="banner__item">
-            <img class="banner__image" src="./images/banners/iconCar.svg">
-            <p class="banner__subtitle">Выполни условия и получи авто</p>
-            <a href="#">
-              <img class="banner__link-icon" src="./images/banners/iconLink.svg">
-            </a>
-          </li>
-          <li class="banner__item">
-            <img class="banner__image" src="./images/banners/iconCar.svg">
-            <p class="banner__subtitle">Выполни условия и получи авто</p>
-            <a href="#">
-              <img class="banner__link-icon" src="./images/banners/iconLink.svg">
-            </a>
-          </li>
-        </ul>
-      </section>
-
-      <section class="table-information">
-        <div class="bonus">
-          <h2 class="bonus__title">Детализация бонусов</h2>
-          <ul class="bonus__name-type">
-            <li>
-              <h3 class="type__name">Тип</h3>
-            </li>
-            <li>
-              <h3 class="type__name">Сумма</h3>
-            </li>
-          </ul>
-          <hr class="bonus__line-top">
-          <div class="bonus__table">
-            <ul class="list-type">
-              <li>
-                <p class="list__desctiption">Cashback за ЛО</p>
-              </li>
-              <li>
-                <p class="list__desctiption">Cashback за ЛО</p>
-              </li>
-              <li>
-                <p class="list__desctiption">Cashback за ЛО</p>
-              </li>
-              <li>
-                <p class="list__desctiption">Cashback за ЛО</p>
-              </li>
-              <li>
-                <p class="list__desctiption">Cashback за ЛО</p>
-              </li>
-              <li>
-                <p class="list__desctiption">Cashback за ЛО</p>
-              </li>
-            </ul>
-
-            <ul class="list-summa">
-              <li>
-                <p class="list__sum">17,78</p>
-              </li>
-              <li>
-                <p class="list__sum">17,78</p>
-              </li>
-              <li>
-                <p class="list__sum">17,78</p>
-              </li>
-              <li>
-                <p class="list__sum">17,78</p>
-              </li>
-              <li>
-                <p class="list__sum">17,78</p>
-              </li>
-              <li>
-                <p class="list__sum">17,78</p>
-              </li>
-            </ul>
-          </div>
-          <hr class="bonus__line-bottom">
-          <div class="sum-finish">
-            <p class="bonus__sum">5 570,37</p>
-          </div>
-        </div>
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<img class="logo" src="./img/logo.png">
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="#">
+					<i class='bx bxs-dashboard'></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-shopping-bag-alt'></i>
+					<span class="text">My Store</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-doughnut-chart'></i>
+					<span class="text">Analytics</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-message-dots'></i>
+					<span class="text">Message</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-group'></i>
+					<span class="text">Team</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu">
+			<li>
+				<a href="#">
+					<i class='bx bxs-cog'></i>
+					<span class="text">Settings</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bxs-log-out-circle'></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
 
 
-        <div class="structor">
-          <div class="structor__header">
-            <h2 class="table__title">Сводка по структуре</h2>
-            <button class="table__button">Подробнее</button>
-          </div>
-          <ul class="structor__name-type">
-            <li class="table__name">
-              <h3 class="table__text">Название</h3>
-            </li>
-            <li class="table__name">
-              <h3 class="table__text">Всего дистрибьюторов</h3>
-            </li>
-            <li class="table__name">
-              <h3 class="table__text">Количество организаторов (100-бальников)</h3>
-            </li>
-          </ul>
-          <hr class="structor__line-top">
-          <div class="structor__table">
-            <ul class="list-type">
-              <li>
-                <p class="list__pokolenie">1-е поколение</p>
-              </li>
-              <li>
-                <p class="list__pokolenie">1-е поколение</p>
-              </li>
-              <li>
-                <p class="list__pokolenie">1-е поколение</p>
-              </li>
-              <li>
-                <p class="list__pokolenie">1-е поколение</p>
-              </li>
-              <li>
-                <p class="list__pokolenie">1-е поколение</p>
-              </li>
-              <li>
-                <p class="list__pokolenie">1-е поколение</p>
-              </li>
-              <li>
-                <p class="list__pokolenie">1-е поколение</p>
-              </li>
-              <li>
-                <p class="list__pokolenie">1-е поколение</p>
-              </li>
-              <li>
-                <p class="list__pokolenie">1-е поколение</p>
-              </li>
-            </ul>
 
-            <ul class="list-destribute">
-              <li>
-                <p class="list__des">8</p>
-              </li>
-              <li>
-                <p class="list__des">8</p>
-              </li>
-              <li>
-                <p class="list__des">8</p>
-              </li>
-              <li>
-                <p class="list__des">8</p>
-              </li>
-              <li>
-                <p class="list__des">8</p>
-              </li>
-              <li>
-                <p class="list__des">8</p>
-              </li>
-              <li>
-                <p class="list__des">8</p>
-              </li>
-              <li>
-                <p class="list__des">8</p>
-              </li>
-              <li>
-                <p class="list__des">8</p>
-              </li>
-            </ul>
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu'></i>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class='bx bx-search'></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			<a href="#" class="notification">
+				<i class='bx bxs-bell'></i>
+				<span class="num">8</span>
+			</a>
+			<a href="#" class="profile">
+				<img src="img/people.png">
+			</a>
+		</nav>
+		<!-- NAVBAR -->
 
-            <ul class="list-balls">
-              <li>
-                <p class="list__bl">40</p>
-              </li>
-              <li>
-                <p class="list__bl">8</p>
-              </li>
-              <li>
-                <p class="list__bl">8</p>
-              </li>
-              <li>
-                <p class="list__bl">8</p>
-              </li>
-              <li>
-                <p class="list__bl">8</p>
-              </li>
-              <li>
-                <p class="list__bl">8</p>
-              </li>
-              <li>
-                <p class="list__bl">8</p>
-              </li>
-              <li>
-                <p class="list__bl">8</p>
-              </li>
-              <li>
-                <p class="list__bl">8</p>
-              </li>
-            </ul>
-          </div>
-        </div>
+		<!-- MAIN -->
+		<main>
+			<div class="profile__board">
+				<div class="profile__overlay">
+					<img class="image__overlay" src="./img/imageoverlay.jpg">
+				</div>
+				<div class="profile__info">
+					<img class="profile__avatar" src="./img/avatar.jpg">
+					<h1>Имя Фамилия</h1>
+					<ul class="item__list">
+						<li>
+							<p class="item__text">Мой статус: Мастер</p>
+						</li>
+						<li>
+							<p class="item__text">Мой ID: 4563782</p>
+						</li>
+						<li>
+							<p class="item__text">Мой текущий бонус: 15000 рублей</p>
+						</li>
+					</ul>
+				</div>
+			</div>
 
-        <div class="career">
-          <div class="career__header">
-            <h2 class="table__title">Карьерная лестница</h2>
-          </div>
-          <ul class="career__name-type">
-            <li class="table__name">
-              <h3 class="table__text-name">Название</h3>
-            </li>
-            <li class="table__name">
-              <h3 class="table__text-ball">Баллы</h3>
-            </li>
-            <li class="table__name">
-              <h3 class="table__text-bonus">Примерный бонус</h3>
-            </li>
-            <li class="table__name">
-              <h3 class="table__text-more">Подробнее</h3>
-            </li>
-          </ul>
-          <hr class="career__line-top">
-          <div class="career__table">
-            <ul class="list-type">
-              <li class="list-type__user">
-                <img class="list-type__image" src="./images/table/imageTable.svg">
-                <p class="list__name-user">Активный потребитель</p>
-                <p class="list__scores">100 баллов</p>
-                <p class="list__scores">100 баллов</p>
-                <a href="#">
-                  <img class="list__image" src="./images/table/кнопкаподробнее.svg">
-                </a>
-              </li>
+			<ul class="box-info">
+				<li>
+					<img class="banner__image" src="./img/icon-car.svg">
+					<p class="banner__subtitle">Выполни условия и получи авто</p>
+					<a href="#">
+						<img class="banner__link-icon" src="./img/icon-link.svg">
+					</a>
+				</li>
+				<li>
+					<img class="banner__image" src="./img/icon-money.svg">
+					<p class="banner__subtitle">Хочешь получать 600 000 рублей?</p>
+					<a href="#">
+						<img class="banner__link-icon" src="./img/icon-link.svg">
+					</a>
+				</li>
+				<li>
+					<img class="banner__image" src="./img/icon-sale.svg">
+					<p class="banner__subtitle">Хочешь дополнительный % от товарооборота?</p>
+					<a href="#">
+						<img class="banner__link-icon" src="./img/icon-link.svg">
+					</a>
+				</li>
+				<li>
+					<img class="banner__image" src="./img/icon-bonus.svg">
+					<p class="banner__subtitle">Хочешь получать карьерный бонус?</p>
+					<a href="#">
+						<img class="banner__link-icon" src="./img/icon-link.svg">
+					</a>
+				</li>
+			</ul>
 
-              <li class="list-type__user">
-                <img class="list-type__image" src="./images/table/imageTable.svg">
-                <p class="list__name-user">Инструктор</p>
-                <p class="list__scores">100 баллов</p>
-                <p class="list__scores">100 баллов</p>
-                <a href="#">
-                  <img class="list__image" src="./images/table/кнопкаподробнее.svg">
-                </a>
-              </li>
 
-              <li class="list-type__user">
-                <img class="list-type__image" src="./images/table/imageTable.svg">
-                <p class="list__name-user">Менеджер</p>
-                <p class="list__scores">100 баллов</p>
-                <p class="list__scores">100 баллов</p>
-                <a href="#">
-                  <img class="list__image" src="./images/table/кнопкаподробнее.svg">
-                </a>
-              </li>
+			<div class="table-data">
+				<div class="order">
+					<div class="head">
+						<h3>Карьерная лестница</h3>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>Название</th>
+								<th>Cтатус</th>
+								<th>Баллы</th>
+								<th>Примерный бонус</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="finish-status">
+								<td>
+									<img src="img/people.png">
+									<p>Активный потребитель</p>
+								</td>
+								<td>Вы уже достигли! Поздравляем!</td>
+								<td>100 баллов</td>
+								<td>500 рублей</td>
+							</tr>
+							<tr class="finish-status">
+								<td>
+									<img src="img/people.png">
+									<p>Инструктор</p>
+								</td>
+								<td>Вы уже достигли! Поздравляем!</td>
+								<td>100 баллов</td>
+								<td>500 рублей</td>
+							</tr>
+							<tr class="finish-status">
+								<td>
+									<img src="img/people.png">
+									<p>Менеджер</p>
+								</td>
+								<td>Вы уже достигли! Поздравляем!</td>
+								<td>100 баллов</td>
+								<td>500 рублей</td>
+							</tr>
+							<tr class="finish-status">
+								<td>
+									<img src="img/people.png">
+									<p>Мастер</p>
+								</td>
+								<td>Вы уже достигли! Поздравляем!</td>
+								<td>100 баллов</td>
+								<td>500 рублей</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/people.png">
+									<p>Директор</p>
+								</td>
+								<td>До статуса директора не хватает...</td>
+								<td>100 баллов</td>
+								<td>500 рублей</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/people.png">
+									<p>Серебряный директор</p>
+								</td>
+								<td>До статуса директора не хватает...</td>
+								<td>100 баллов</td>
+								<td>500 рублей</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/people.png">
+									<p>Золотой директор</p>
+								</td>
+								<td>До статуса директора не хватает...</td>
+								<td>100 баллов</td>
+								<td>500 рублей</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/people.png">
+									<p>Премьер</p>
+								</td>
+								<td>До статуса директора не хватает...</td>
+								<td>100 баллов</td>
+								<td>500 рублей</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/people.png">
+									<p>Президент</p>
+								</td>
+								<td>До статуса директора не хватает...</td>
+								<td>100 баллов</td>
+								<td>500 рублей</td>
+							</tr>
+						</tbody>
+					</table>
+					<tfoot>
+						<div class="descrtiption">
+							<p colspan="1" class="descrtiption__text">Узнай все свои возможности по бизнес
+								программам и какие дополнительные бонусы ты можешь получить</p>
+							<button class="descrtiption__button">Подробнее</button>
+						</div>
+					</tfoot>
+				</div>
+			</div>
 
-              <div class="list-type__active">
-                <li class="list-type__user">
-                  <img class="list-type__image" src="./images/table/imageTable.svg">
+			<div class="table-bonus">
+				<div class="container">
+					<div class="head">
+						<h3>Детализация бонусов</h3>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>Тип</th>
+								<th>Сумма</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<p>Cashback за ЛО</p>
+								</td>
+								<td>17,78</td>
+							</tr>
+							<tr>
+								<td>
+									<p>Бонус за статус</p>
+								</td>
+								<td>774,73</td>
+							</tr>
+							<tr>
+								<td>
+									<p>Бонус за структ. объем (осн. ветка)</p>
+								</td>
+								<td>384,63</td>
+							</tr>
+							<tr>
+								<td>
+									<p>Бонус за структ. объем (ветки отрыва)</p>
+								</td>
+								<td>293,23</td>
+							</tr>
+							<tr>
+								<td>
+									<p>Бонус 50/50</p>
+								</td>
+								<td>1600</td>
+							</tr>
+							<tr>
+								<td>
+									<p>Карьерный бонус 2,0</p>
+								</td>
+								<td>2500</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr class="total-amount">
+								<td colspan="2">5 570,37</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
 
-                  <p class="list__name-user">Мастер
-                    <span class="message-congratulation">Вы уже достигли! Поздравляем!</span>
-                  </p>
-                  <p class="list__scores">100 баллов</p>
-                  <p class="list__scores">100 баллов</p>
-                  <a href="#">
-                    <img class="list__image" src="./images/table/кнопкаподробнеетемная.svg">
-                  </a>
-                </li>
-              </div>
-              <li class="list-type__user">
-                <img class="list-type__image" src="./images/table/imageTable.svg">
-                <p class="list__name-user">Директор</p>
-                <p class="list__scores">100 баллов</p>
-                <p class="list__scores">100 баллов</p>
-                <a href="#">
-                  <img class="list__image" src="./images/table/кнопкаподробнее.svg">
-                </a>
-              </li>
+				<div class="structor">
+					<div class="head__structor">
+						<h3>Сводка по структуре</h3>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>Название</th>
+								<th>Всего дистрибьюторов</th>
+								<th>Количество организаторов (100-бальников)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<p>1-е поколение</p>
+								</td>
+								<td>8</td>
+								<td>8</td>
+							</tr>
+							<tr>
+								<td>
+									<p>1-е поколение</p>
+								</td>
+								<td>8</td>
+								<td>8</td>
+							</tr>
+							<tr>
+								<td>
+									<p>1-е поколение</p>
+								</td>
+								<td>8</td>
+								<td>8</td>
+							</tr>
+							<tr>
+								<td>
+									<p>1-е поколение</p>
+								</td>
+								<td>8</td>
+								<td>8</td>
+							</tr>
+							<tr>
+								<td>
+									<p>1-е поколение</p>
+								</td>
+								<td>8</td>
+								<td>8</td>
+							</tr>
+							<tr>
+								<td>
+									<p>1-е поколение</p>
+								</td>
+								<td>8</td>
+								<td>8</td>
+							</tr>
+							<tr>
+								<td>
+									<p>1-е поколение</p>
+								</td>
+								<td>8</td>
+								<td>8</td>
+							</tr>
+							<tr>
+								<td>
+									<p>1-е поколение</p>
+								</td>
+								<td>8</td>
+								<td>8</td>
+							</tr>
+							<tr>
+								<td>
+									<p>1-е поколение</p>
+								</td>
+								<td>8</td>
+								<td>8</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- CONTENT -->
 
-              <li class="list-type__user">
-                <img class="list-type__image" src="./images/table/imageTable.svg">
-                <p class="list__name-user">Серебряный директор</p>
-                <p class="list__scores">100 баллов</p>
-                <p class="list__scores">100 баллов</p>
-                <a href="#">
-                  <img class="list__image" src="./images/table/кнопкаподробнее.svg">
-                </a>
-              </li>
 
-              <li class="list-type__user">
-                <img class="list-type__image" src="./images/table/imageTable.svg">
-                <p class="list__name-user">Золотой директор</p>
-                <p class="list__scores">100 баллов</p>
-                <p class="list__scores">100 баллов</p>
-                <a href="#">
-                  <img class="list__image" src="./images/table/кнопкаподробнее.svg">
-                </a>
-              </li>
-
-              <li class="list-type__user">
-                <img class="list-type__image" src="./images/table/imageTable.svg">
-                <p class="list__name-user">Премьер</p>
-                <p class="list__scores">100 баллов</p>
-                <p class="list__scores">100 баллов</p>
-                <a href="#">
-                  <img class="list__image" src="./images/table/кнопкаподробнее.svg">
-                </a>
-              </li>
-
-              <li class="list-type__user">
-                <img class="list-type__image" src="./images/table/imageTable.svg">
-                <p class="list__name-user">Президент</p>
-                <p class="list__scores">100 баллов</p>
-                <p class="list__scores">100 баллов</p>
-                <a href="#">
-                  <img class="list__image" src="./images/table/кнопкаподробнее.svg">
-                </a>
-              </li>
-            </ul>
-          </div>
-          <hr class="career__line-bottom">
-          <div class="career__information">
-            <p class="career__subtitle">Узнай все свои возможности по бизнес программам
-              и какие дополнительные бонусы ты можешь получить</p>
-            <button class="table__button">Подробнее</button>
-          </div>
-        </div>
-      </section>
-    </header>
-    <script src="./script.js"></script>
+	<script src="script.js"></script>
 </body>
 
 </html>
