@@ -787,30 +787,10 @@ body {
 
 
 @media screen and (max-width: 576px) {
-	#content main .profile__board {
-		height: 380px;
-	}
-
-	#content main .profile__board .profile__avatar {
-		position: absolute;
-		max-width: 180px;
-		max-height: 180px;
-		left: 150px;
-	}
-
-	#content main .profile__board h1 {
-		font-size: 25px;
-		text-align: center;
-		position: absolute;
-		top: 250px;
-		left: 150px;
-		padding-left: 0;
-	}
 
 	#content main .profile__board .item__list {
-		padding-left: 15px;
+		padding-left: 5px;
 		text-align: center;
-		padding-top: 135px;
 	}
 
 	#content nav form .form-input input {
