@@ -739,8 +739,15 @@ h2 {
 	font-family: 'Comfortaa', 'Arial', sans-serif;
 }
 
-#content main .table-bonus .head .bx {
+#content main .table-bonus .head .head__button {
+	font-size: 14px;
+	width: 150px;
+	height: 46px;
+	color: white;
 	cursor: pointer;
+	background: var(--green);
+	border: none;
+	border-radius: 5px;
 }
 
 #content main .table-bonus .container {
@@ -948,12 +955,22 @@ h2 {
 		max-width: 150px;
 	}
 
+	.progress-bar span {
+		font-size: 12px;
+	}
+
+	.progress-bar li:last-child span {
+		position: relative;
+		left: -100%;
+	}
+
 	#content main .profile__board {
 		display: flex;
 		width: 100%;
 		flex-direction: column;
 		height: 550px;
 	}
+
 	.progress-bar {
 		margin: 0 auto;
 		max-width: 370px;
